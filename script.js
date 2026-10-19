@@ -10,7 +10,7 @@ const posts = [
     title: 'Susu Kurma',
     category: 'product',
     caption: 'Susu Kurma.',
-    images: ['photo-01.JPG', 'photo-01_1.JPG'],
+    images: ['photo-01.jpg', 'photo-01_1.jpg'],
     alt: 'Susu Kurma.'
   },
   {
@@ -22,9 +22,9 @@ const posts = [
       'photo-02.jpg',
       'photo-02_1.jpg',
       'photo-02_2.jpg',
-      'photo-02_3.JPG',
-      'photo-02_4.JPG',
-      'photo-02_5.JPG'
+      'photo-02_3.jpg',
+      'photo-02_4.jpg',
+      'photo-02_5.jpg'
     ],
     alt: 'Gudeg Tidar.'
   },
@@ -33,7 +33,7 @@ const posts = [
     title: 'Pangsit Kuah',
     category: 'product',
     caption: 'Pangsit Kuah Dapur Marfa.',
-    images: ['photo-03.JPG', 'photo-03_1.JPG'],
+    images: ['photo-03.jpg', 'photo-03_1.jpg'],
     alt: 'Pangsit Kuah Dapur Marfa'
   },
   {
@@ -45,9 +45,9 @@ const posts = [
       'photo-04.jpg',
       'photo-04_1.jpg',
       'photo-04_2.jpg',
-      'photo-04_3.JPG',
+      'photo-04_3.jpg',
       'photo-04_4.jpg',
-      'photo-04_5.JPG',
+      'photo-04_5.jpg',
       'photo-04_6.jpg'
     ],
     alt: 'Tangan Bapak Recipe'
