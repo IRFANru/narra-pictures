@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11110f">
+  <meta name="description" content="NARRA Pictures — photography portfolio for product and portrait photography.">
+  <title>NARRA Pictures — Photography</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="NARRA Pictures home"><span class="brand-mark">N</span><span>NARRA <i>PICTURES</i></span></a>
+    <nav class="nav" aria-label="Navigasi utama">
+      <a href="#work">Portfolio</a><a href="#about">Tentang</a><a href="#contact">Kontak</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Ganti tema" title="Ganti tema"><span id="themeIcon">☼</span></button>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-label="NARRA Pictures intro">
+      <div class="hero-backdrop" id="heroBackdrop"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-watermark" aria-hidden="true">NARRA PICTURES</div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="eyebrow-line"></span> VISUAL STORYTELLING · EST. 2024</p>
+        <h1>Every frame<br><em>has a feeling.</em></h1>
+        <p class="hero-copy">Merekam detail, suasana, dan cerita melalui fotografi yang jujur dan berkarakter.</p>
+        <a class="text-link" href="#work">Jelajahi karya <span aria-hidden="true">↘</span></a>
+      </div>
+      <div class="hero-footer"><span>PRODUCT · PORTRAIT · LIFESTYLE</span><span class="slide-status" id="slideStatus">PORTFOLIO / 01</span></div>
+    </section>
+
+    <section class="work section-wrap" id="work">
+      <div class="section-heading"><div><p class="eyebrow dark-eyebrow">SELECTED WORKS</p><h2>Stories in <em>focus.</em></h2></div><p class="section-note">Pilihan karya yang menonjolkan karakter, tekstur, dan detail.</p></div>
+      <div class="filters" role="group" aria-label="Filter portfolio">
+        <button class="filter active" type="button" data-filter="all" aria-pressed="true">Semua karya <span id="portfolioCount">00</span></button>
+        <button class="filter" type="button" data-filter="product" aria-pressed="false">Product</button>
+        <button class="filter" type="button" data-filter="portrait" aria-pressed="false">Portrait</button>
+      </div>
+      <div class="gallery" id="gallery" aria-live="polite"></div>
+      <p class="gallery-hint" id="galleryHint">Setiap kartu adalah satu postingan produk/brand. Klik kartu untuk melihat semua foto dalam postingan tersebut.</p>
+    </section>
+
+    <section class="about section-wrap" id="about">
+      <div class="about-number">01 <span>— ABOUT NARRA</span></div>
+      <div class="about-copy"><p class="eyebrow dark-eyebrow">BEHIND THE LENS</p><h2>Visual yang terasa<br><em>lebih dekat.</em></h2><p>NARRA Pictures berfokus pada fotografi produk dan portrait dengan pendekatan yang sederhana, terarah, dan penuh perhatian pada detail. Setiap frame dirancang untuk menyampaikan karakter, bukan sekadar menampilkan objek.</p><a class="text-link dark-link" href="#contact">Ceritakan proyekmu <span aria-hidden="true">↗</span></a></div>
+      <div class="about-side"><div class="side-rule"></div><p>01 / PRODUCT</p><p>02 / PORTRAIT</p><p>03 / CREATIVE DIRECTION</p></div>
+    </section>
+
+    <section class="contact" id="contact"><p class="eyebrow">LET’S CREATE SOMETHING</p><h2>A good story<br><em>starts with a frame.</em></h2><p class="contact-copy">Punya ide untuk proyek berikutnya? Mari bicarakan.</p><a class="contact-link" href="mailto:hello@narrapictures.com">hello@narrapictures.com <span aria-hidden="true">↗</span></a></section>
+  </main>
+
+  
+<footer class="footer">
+  <a class="brand footer-brand" href="#home">
+    <span class="brand-mark">N</span>
+    <span>NARRA <i>PICTURES</i></span>
+  </a>
+
+
+<div class="footer-socials">
+  <a href="https://www.instagram.com/narra_picture/" target="_blank" rel="noopener noreferrer">Instagram <span>↗</span></a>
+  <a href="https://facebook.com/#" target="_blank" rel="noopener noreferrer">Facebook <span>↗</span></a>
+  <a href="https://youtube.com/#" target="_blank" rel="noopener noreferrer">YouTube <span>↗</span></a>
+</div>
+
+
+  <span>© <span id="year"></span> NARRA Pictures</span>
+  <a href="#home">Kembali ke atas ↑</a>
+</footer>
+
+
+  <dialog class="lightbox post-viewer" id="lightbox" aria-label="Tampilan postingan foto"><button class="lightbox-close" id="lightboxClose" type="button" aria-label="Tutup postingan">×</button><button class="lightbox-prev" id="lightboxPrev" type="button" aria-label="Foto sebelumnya">←</button><figure><div class="post-image-wrap"><img id="lightboxImage" alt=""><span class="post-watermark">NARRA PICTURES</span><span class="post-counter" id="postCounter">1 / 1</span></div><figcaption><strong id="lightboxTitle"></strong><span id="lightboxCaption"></span></figcaption></figure><button class="lightbox-next" id="lightboxNext" type="button" aria-label="Foto berikutnya">→</button></dialog>
+</body>
+</html>
