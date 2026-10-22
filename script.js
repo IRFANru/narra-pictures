@@ -1,7 +1,5 @@
 'use strict';
 
-// Satu objek = satu postingan. images boleh berisi sebanyak mungkin foto.
-// Semua foto dari produk yang sama diletakkan dalam array images yang sama.
 const heroFiles = ['hero-01.jpg','hero-02.jpg','hero-03.jpg','hero-04.jpg','hero-05.jpg'];
 
 const posts = [
@@ -38,7 +36,7 @@ const posts = [
   },
   {
     brand: 'Tangan Bapak',
-    title: 'Tangan Bapak Recipe',
+    title: 'Drinks from Tangan Bapak Recipe',
     category: 'product',
     caption: 'Thai Tea, Coffee and Matcha.',
     images: [
@@ -135,7 +133,7 @@ function renderGallery() {
   if(portfolioCount) portfolioCount.textContent=String(visiblePosts.length).padStart(2,'0');
   if(!visiblePosts.length){ const empty=document.createElement('div'); empty.className='gallery-empty'; const strong=document.createElement('strong'); strong.textContent='Belum ada postingan dengan foto yang tersedia'; const detail=document.createElement('span'); detail.textContent='Tambahkan nama file foto pada array images di script.js.'; empty.append(strong,detail); gallery.appendChild(empty); galleryHint.hidden=true; return; }
   visiblePosts.forEach((p,i)=>gallery.appendChild(createCard(p,i)));
-  galleryHint.hidden=false; galleryHint.textContent='Setiap kartu adalah satu postingan. Klik untuk menggeser foto-foto di dalamnya.';
+  galleryHint.hidden=false; galleryHint.textContent='Klik untuk melihat foto.';
 }
 function openPost(postIndex,imageIndex) {
   if(!visiblePosts.length) return;
