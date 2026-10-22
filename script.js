@@ -83,6 +83,22 @@ const posts = [
       'photo-06_6.jpg'
     ],
     alt: 'Sweet Munchies'
+  },
+    {
+    brand: 'Yogo & Nuning',
+    title: 'The Wedding of Yogo & Nuning',
+    category: 'portrait',
+    caption: 'Wedding Yogo & Nuning',
+    images: [
+      'photo-07.jpg',
+      'photo-07_1.jpg',
+      'photo-07_2.jpg',
+      'photo-07_3.jpg',
+      'photo-07_4.jpg',
+      'photo-07_5.jpg',
+      'photo-07_6.jpg'
+    ],
+    alt: 'Yogo & Nuning'
   }
 ];
 
