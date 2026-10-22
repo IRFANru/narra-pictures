@@ -15,9 +15,9 @@ const posts = [
   },
   {
     brand: 'Gudeg Tidar',
-    title: 'Gudeg Tidar',
+    title: 'Nasi Gudeg & Bubur Gudeg',
     category: 'product',
-    caption: 'Gudeg Tidar Purwokerto.',
+    caption: 'Nasi Gudeg & Bubur Gudeg Tidar Purwokerto.',
     images: [
       'photo-02.jpg',
       'photo-02_1.jpg',
