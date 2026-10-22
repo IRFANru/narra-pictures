@@ -51,6 +51,38 @@ const posts = [
       'photo-04_6.jpg'
     ],
     alt: 'Tangan Bapak Recipe'
+  },
+    {
+    brand: 'Elby Nyam',
+    title: 'Ayam Ungkep',
+    category: 'product',
+    caption: 'Ayam ungkep siap goreng.',
+    images: [
+      'photo-05.jpg',
+      'photo-05_1.jpg',
+      'photo-05_2.jpg',
+      'photo-05_3.jpg',
+      'photo-05_4.jpg',
+      'photo-05_5.jpg',
+      'photo-05_6.jpg'
+    ],
+    alt: 'Ayam Ungkep by Elby Nyam'
+  },
+    {
+    brand: 'Sweet Munchies',
+    title: 'Matcha, Coffee with Golden Ham and Cheese Croquettes',
+    category: 'product',
+    caption: 'Matcha and Coffee with Golden Ham and Cheese Croquettes',
+    images: [
+      'photo-06.jpg',
+      'photo-06_1.jpg',
+      'photo-06_2.jpg',
+      'photo-06_3.jpg',
+      'photo-06_4.jpg',
+      'photo-06_5.jpg',
+      'photo-06_6.jpg'
+    ],
+    alt: 'Sweet Munchies'
   }
 ];
 
